@@ -1,8 +1,12 @@
+body{
+  background-color:#000;
+}
 div{
   margin: 5px;
 }
 .main-title{
   text-align: center;
+  color:#fff;
 }
 .container-app{
   height: fit-content;
@@ -95,6 +99,7 @@ div{
 }
 .author{
   text-align: center;
+  color:#fff;
 }
 
 .container-single-vote p{
