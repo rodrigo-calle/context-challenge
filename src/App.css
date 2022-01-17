@@ -1,25 +1,112 @@
+div{
+  margin: 5px;
+}
+.main-title{
+  text-align: center;
+}
+.container-app{
+  height: fit-content;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #3777E8;
+  padding: 15px;
+  border-radius: 14px;
+}
 .container-candidates{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .candidate-container{
   border: thin solid #000;
   background-color: darkorange;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   text-align: center;
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 14px;
+  border: none;
+  color: #fff;
+}
+.container-total{
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+.container-single{
+  background-color: #fff;
+  border-radius: 14px;
 }
 
 .candidate-container .candidate-icon{
   height:30px;
   width:30px;
 }
-.container-app{
-  height: 90vh;
+
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.group-btns .link {
+  width:100%;
+  margin: 12px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 14px;
+  border: none;
+  background-color: #e83746;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.group-btns h2{
+  text-align: left;
+}
+.group-btns{
+  text-align: center;
   width: 90%;
-  margin: auto;
+  margin: 0 auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+}
+.author{
+  text-align: center;
+}
+
+.container-single-vote p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.single-vote p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.single-vote p span, .container-single-vote p span{
+  color: #3A37E8;
 }
